@@ -19,6 +19,7 @@ public class NappisLukija {                             // STREAMIEN KÃ„SITTELYÃ
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Annoit: " + rivi);
+        System.out.println("Annoit hih: " + rivi);
     }
 }
+
