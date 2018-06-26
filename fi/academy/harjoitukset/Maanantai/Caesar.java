@@ -7,11 +7,13 @@ import java.io.*;
 
  public class Caesar {
 
+
     public static void main(String[] args) {
         String merkkijono = "salainen";
         Caesar salaaja = new Caesar();
         String salattu = salaaja.salaa(merkkijono);
         System.out.println(salattu);
+
     }
 
     private String salaa(String merkkijono) {
@@ -21,6 +23,7 @@ import java.io.*;
         }
         return uusi;
     }
+
 }
 */
 
