@@ -6,7 +6,6 @@ import java.time.Period;
 import java.time.ZoneId;
 import java.util.Date;
 
-
 /**
  * Created by Administrator on 2.10.2017.
  */
@@ -27,6 +26,5 @@ public class HarjoitusViisi {
         long paiva = Duration.between(syntymapaiva.atStartOfDay(), tanaan.atStartOfDay()).toDays();
 
         System.out.println(paiva);
-
     }
 }
