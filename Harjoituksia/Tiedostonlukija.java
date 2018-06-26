@@ -9,9 +9,7 @@ import ja
 public class Tiedostonlukija {
     public static void main(String[] args) {
 
-        BufferedInputR
-
-
+        BufferedInputReader rd = new Readerđ ;
 
 
     }

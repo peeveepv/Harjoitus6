@@ -1,0 +1,17 @@
+# kommentti – tämä sivuutetaan
+# ei .a tiedostoja
+*.a
+# mutta jäljitä lib.a, vaikka sivuutatkin .a tiedostot yllä
+!lib.a
+# sivuttaa vain juuren TODO-tiedosto, ei subdir/TODO-tiedostoa
+/TODO
+# sivuttaa kaikki tiedostot build/-hakemistosta
+build/
+# sivuttaa doc/notes.txt, mutta ei doc/server/arch.txt
+doc/*.txt
+# sivuuttaa kaikki .txt-tiedostot doc/-hakemistosta
+doc/**/*.txt
+# ignore .idea/
+.idea/
+# ignore demot/
+demot/
